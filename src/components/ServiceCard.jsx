@@ -2,8 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Activity, ShieldCheck, Stethoscope } from 'lucide-react'
 
-
-
 const iconComponents = {
   activity: Activity,
   'shield-check': ShieldCheck,

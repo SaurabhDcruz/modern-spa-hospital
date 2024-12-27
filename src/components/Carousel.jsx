@@ -34,7 +34,7 @@ export default function Carousel() {
   }, [])
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto overflow-hidden h-80">
+    <div className="relative rounded-2xl w-full max-w-4xl mx-auto overflow-hidden h-80">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
